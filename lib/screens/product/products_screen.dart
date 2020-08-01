@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'components/body.dart';
 
 // Custom import
 import '../../constants.dart';
@@ -10,6 +11,7 @@ class ProductsScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: kPrimaryColor,
       appBar: buildAppBar(),
+      body: Body(),
     );
   }
 }
