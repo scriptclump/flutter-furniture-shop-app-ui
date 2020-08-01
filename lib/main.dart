@@ -1,8 +1,9 @@
-import 'package:first_app/constants.dart';
-import 'package:first_app/models/product.dart';
-import 'package:first_app/screens/product/products_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+
+import 'constants.dart';
+import 'models/product.dart';
+import 'screens/product/products_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Furniture Application',
       theme: ThemeData(
         // Popins as defalut font
         textTheme: GoogleFonts.poppinsTextTheme(Theme.of(context).textTheme),
