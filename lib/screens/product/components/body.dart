@@ -3,6 +3,7 @@ import 'package:flutter_svg/svg.dart';
 
 import '../../../constants.dart';
 import '../../../components/search_box.dart';
+import '../components/category_list.dart';
 
 class Body extends StatelessWidget {
   @override
@@ -10,6 +11,7 @@ class Body extends StatelessWidget {
     return Column(
       children: <Widget>[
         SearchBox(),
+        CategoryList(),
       ],
     );
   }
