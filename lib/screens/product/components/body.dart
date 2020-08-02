@@ -1,3 +1,5 @@
+import 'package:first_app/models/product.dart';
+import 'package:first_app/screens/product/components/product_card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
@@ -8,8 +10,6 @@ import '../components/category_list.dart';
 class Body extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    // It will provide total height & width of screen
-    Size size = MediaQuery.of(context).size;
     return SafeArea(
       child: Column(
         children: <Widget>[
@@ -19,11 +19,21 @@ class Body extends StatelessWidget {
           Expanded(
             child: Stack(
               children: <Widget>[
+                // Background with White
                 Container(
+                  margin: EdgeInsets.only(top: 70),
                   decoration: BoxDecoration(
                     color: kBackgroudColor,
+                    borderRadius: BorderRadius.only(
+                      topLeft: Radius.circular(40),
+                      topRight: Radius.circular(40),
+                    ),
                   ),
                 ),
+                ListView.builder(
+                  itemCount: 3,
+                  itemBuilder: (context, index) => ProductCard(),
+                )
               ],
             ),
           )
