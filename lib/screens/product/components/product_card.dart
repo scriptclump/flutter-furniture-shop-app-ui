@@ -52,7 +52,7 @@ class ProductCard extends StatelessWidget {
               height: 160,
               width: 200,
               child: Image.asset(
-                "assets/images/chair1.jpg",
+                product.image,
                 fit: BoxFit.cover,
               ),
             ),
@@ -73,7 +73,7 @@ class ProductCard extends StatelessWidget {
                     padding:
                         const EdgeInsets.symmetric(horizontal: kDefaultPadding),
                     child: Text(
-                      "Classic leather arm chair",
+                      product.title,
                       style: Theme.of(context).textTheme.button,
                     ),
                   ),
@@ -92,7 +92,7 @@ class ProductCard extends StatelessWidget {
                       ),
                     ),
                     child: Text(
-                      'INR 9500',
+                      'INR ${product.price}',
                       style: Theme.of(context).textTheme.button,
                     ),
                   ),

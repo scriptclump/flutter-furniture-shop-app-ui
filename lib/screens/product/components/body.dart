@@ -31,8 +31,12 @@ class Body extends StatelessWidget {
                   ),
                 ),
                 ListView.builder(
-                  itemCount: 3,
-                  itemBuilder: (context, index) => ProductCard(),
+                  // Reading the data
+                  itemCount: products.length,
+                  itemBuilder: (context, index) => ProductCard(
+                    itemIndex: index,
+                    product: products[index],
+                  ),
                 )
               ],
             ),
