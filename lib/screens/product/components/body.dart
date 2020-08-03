@@ -1,4 +1,5 @@
 import 'package:first_app/models/product.dart';
+import 'package:first_app/screens/details/details_screen.dart';
 import 'package:first_app/screens/product/components/product_card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
@@ -11,9 +12,12 @@ class Body extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
+      bottom: false,
       child: Column(
         children: <Widget>[
-          SearchBox(),
+          SearchBox(
+            onChanged: (value) => {},
+          ),
           CategoryList(),
           SizedBox(height: kDefaultPadding / 2),
           Expanded(
@@ -36,6 +40,14 @@ class Body extends StatelessWidget {
                   itemBuilder: (context, index) => ProductCard(
                     itemIndex: index,
                     product: products[index],
+                    press: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => DetailsScreen(),
+                        ),
+                      );
+                    },
                   ),
                 )
               ],
