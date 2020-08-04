@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+// Custom import
 import 'constants.dart';
-import 'models/product.dart';
 import 'screens/product/products_screen.dart';
 
 void main() {

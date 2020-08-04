@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'components/body.dart';
 
 // Custom import
 import '../../constants.dart';
+import 'components/body.dart';
 
 class ProductsScreen extends StatelessWidget {
   @override
