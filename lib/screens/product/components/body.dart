@@ -1,8 +1,7 @@
-import 'package:first_app/models/product.dart';
-import 'package:first_app/screens/details/details_screen.dart';
-import 'package:first_app/screens/product/components/product_card.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
+import '../../../models/product.dart';
+import '../../../screens/details/details_screen.dart';
+import '../../../screens/product/components/product_card.dart';
 
 import '../../../constants.dart';
 import '../../../components/search_box.dart';

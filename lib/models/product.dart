@@ -15,49 +15,49 @@ List<Product> products = [
       description:
           "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."),
   Product(
-      id: 1,
+      id: 2,
       price: 500,
       title: "Test",
       image: "assets/images/chair2.jpeg",
       description:
           "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."),
   Product(
-      id: 1,
+      id: 3,
       price: 300,
       title: "Ckol kkoas",
       image: "assets/images/chair1.jpg",
       description:
           "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."),
   Product(
-      id: 1,
+      id: 4,
       price: 250,
       title: "Goli ",
       image: "assets/images/chair1.jpg",
       description:
           "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."),
   Product(
-      id: 1,
+      id: 5,
       price: 88,
       title: "Classic leather arm chair",
       image: "assets/images/chair1.jpg",
       description:
           "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."),
   Product(
-      id: 1,
+      id: 6,
       price: 100,
       title: "Classic leather arm chair",
       image: "assets/images/chair1.jpg",
       description:
           "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."),
   Product(
-      id: 1,
+      id: 7,
       price: 999,
       title: "Classic leather arm chair",
       image: "assets/images/chair1.jpg",
       description:
           "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."),
   Product(
-      id: 1,
+      id: 8,
       price: 111,
       title: "Classic leather arm chair",
       image: "assets/images/chair1.jpg",
